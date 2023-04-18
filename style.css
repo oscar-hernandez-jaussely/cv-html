@@ -1,0 +1,79 @@
+body {
+    background-color: grey;
+    color: black;
+    font-family: "Montserrat";
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap: 40px;
+}
+
+header img {
+    max-width: 380px;
+    max-height: 380px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+section {
+    background-color: darkgray;
+    border-radius: 5px;
+}
+
+header p , header h1, header h2 {
+    background-color: darkgray;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header b {
+    font-size: 20px;
+}
+
+.grid {
+	display: grid;
+	grid-gap: 10px;
+}
+
+.wrapper {
+    grid-template-columns: 1fr 1fr ;
+    padding: 10px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.grid-left {
+    grid-column: 1 / span 1;
+    grid-auto-rows: min-content;
+}
+
+.grid-right {
+    grid-column: span 1 / -1;
+    grid-auto-rows: min-content;
+}
+
+section h2, section h4, section p, section em {
+    padding: 5px;
+    padding-bottom: 5px;
+}
+
+
+.ressources img {
+    height: 32px;
+    width: 32px;
+}
+
+.ressources a {
+    text-decoration: none; 
+    font-size: 18px;
+}
+
+
